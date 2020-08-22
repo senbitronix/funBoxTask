@@ -1,6 +1,4 @@
-# FunBox
-
-### Вакансия разработчика HTML/CSS/JS Junior
+# FunBox ### Вакансия разработчика HTML/CSS/JS Junior
 
 ## Практическое задание
 
