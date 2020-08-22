@@ -1,5 +1,3 @@
-// font-family: 'Exo 2', sans-serif;
-
 $ff: "Trebuchet MS";
 
 @mixin outline {
@@ -8,11 +6,6 @@ $ff: "Trebuchet MS";
 
 * {
   box-sizing: border-box;
-}
-
-
-body {
-  // height: 100%;
 }
 
 body {
@@ -24,7 +17,6 @@ body {
   //     ),
   //     url(../img/pattern.jpg);
   background-image: url(../img/shadow.jpg);
-  // background-color: blue;
   background-size: cover;
 
 }
