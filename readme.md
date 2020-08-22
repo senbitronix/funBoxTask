@@ -1,5 +1,7 @@
 # FunBox
 
+# Вакансия разработчика HTML/CSS/JS Junior
+
 ## Практическое задание
 
 https://senbitronix.github.io/funBoxTask/src/
@@ -41,7 +43,7 @@ https://senbitronix.github.io/funBoxTask/src/
 > Q4  
 >  Расскажите, какие инструменты помогают вам экономить время в процессе написания, проверки и отладки кода.
 
-gulp, emmet, scss, слепая печать, chrome dev tools, сниппеты js, разные плагины VS code
+https://www.markupeasy.ru/, gulp, emmet, scss, слепая печать, chrome dev tools, сниппеты js, разные плагины VS code
 
 ---
 
