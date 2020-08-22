@@ -2,7 +2,9 @@
 
 ## Практическое задание
 
-    https://senbitronix.github.io/funBoxTask/src/
+```
+[https://senbitronix.github.io/funBoxTask/src/](https://senbitronix.github.io/funBoxTask/src/)
+```
 
 ### Установка
 
