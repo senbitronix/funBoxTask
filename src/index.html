@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+  <section class="cat-food">
+    <div class="container">
+      <h1 class="cat-food__title">Ты сегодня покормил кота?</h1>
+      <div class="cat-food__items">
+        <div class="food-item-wrapper">
+          <div class="food-item">
+            <h2 class="food-item__title">Сказочное заморское яство</h2>
+            <h2 class="food-item__title_hovered">Котэ не одобряет?</h2>
+            <h3 class="food-item__name">
+              Нямушка
+            </h3>
+            <h4 class="food-item__content">с фуа-гра</h4>
+            <p class="food-item__amount">
+              10 <span>порций<br />мышь в подарок</span>
+            </p>
+            <div class="food-item__weight weight">
+              0,5<br /><span>кг</span>
+            </div>
+          </div>
+          <div class="caption caption_defaultStyle">
+            Чего сидишь? Порадуй котэ, <a>купи</a>.
+          </div>
+          <div class="caption caption_selectedStyle">
+            Печень утки разварная с артишоками.
+          </div>
+          <div class="caption caption_disabledStyle">
+            Печалька, с фуа-гра закончился.
+          </div>
+          <button class="toggler">Disabled</button>
+        </div>
+        <div class="food-item-wrapper">
+          <div class="food-item food-item_selected">
+            <h2 class="food-item__title">Сказочное заморское яство</h2>
+            <h2 class="food-item__title_hovered">Котэ не одобряет?</h2>
+            <h3 class="food-item__name">
+              Нямушка
+            </h3>
+            <h4 class="food-item__content">с рыбой</h4>
+            <p class="food-item__amount">
+              40 <span>порций<br />2 мыши в подарок</span>
+            </p>
+            <div class="food-item__weight weight">2<br /><span>кг</span></div>
+          </div>
+          <div class="caption caption_defaultStyle">
+            Чего сидишь? Порадуй котэ, <a>купи</a>.
+          </div>
+          <div class="caption caption_selectedStyle">
+            Головы щучьи с чесноком да свежайшая сёмгушка.
+          </div>
+          <div class="caption caption_disabledStyle">
+            Печалька, с рыбой закончился.
+          </div>
+          <button class="toggler">Disabled</button>
+        </div>
+        <div class="food-item-wrapper">
+          <div class="food-item food-item_disabled">
+            <h2 class="food-item__title">Сказочное заморское яство</h2>
+            <h2 class="food-item__title_hovered">Котэ не одобряет?</h2>
+            <h3 class="food-item__name">
+              Нямушка
+            </h3>
+            <h4 class="food-item__content">с фуа-гра</h4>
+            <p class="food-item__amount">
+              100
+              <span>порций<br />5 мышей в подарок<br />заказчик доволен</span>
+            </p>
+            <div class="food-item__weight weight">5<br /><span>кг</span></div>
+          </div>
+          <div class="caption caption_defaultStyle">
+            Чего сидишь? Порадуй котэ, <a>купи</a>.
+          </div>
+          <div class="caption caption_selectedStyle">
+            Филе из цыплят с трюфелями в бульоне.
+          </div>
+          <div class="caption caption_disabledStyle">
+            Печалька, с курой закончился.
+          </div>
+          <button class="toggler">Disabled</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

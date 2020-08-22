@@ -1,0 +1,38 @@
+@media (max-width: 1279px) {
+
+    .cat-food {
+        height: auto;
+
+        .container {
+            max-width: 1200px;
+        }
+
+        &__items {
+            justify-content: center;
+        }
+
+        .food-item-wrapper {
+            margin-top: 40px;
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+    }
+}
+
+@media (max-width: 365px) {
+    .cat-food {
+        .cat-food__title {
+            padding: 0 5px 0 5px;
+        }
+
+        .container {
+            .food-item-wrapper {
+                margin-top: 0px;
+                margin-bottom: 40px;
+                margin-right: 0px;
+                margin-left: 0px;
+            }
+        }
+    }
+
+}
